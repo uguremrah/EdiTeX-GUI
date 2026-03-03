@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg-info
+
+# Virtual environments
+.venv/
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.dvi
+
+# NiceGUI
+.nicegui/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# User data (created at runtime)
+latex-projects/

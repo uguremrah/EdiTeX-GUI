@@ -1,0 +1,116 @@
+\documentclass[sigconf,review]{acmart}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% Remove ACM copyright for drafts
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+\begin{document}
+
+\title{Paper Title}
+
+\author{First Author}
+\email{first@example.com}
+\orcid{0000-0000-0000-0000}
+\affiliation{
+    \institution{University Name}
+    \streetaddress{Street Address}
+    \city{City}
+    \state{State}
+    \country{Country}
+    \postcode{00000}
+}
+
+\author{Second Author}
+\email{second@example.com}
+\affiliation{
+    \institution{University Name}
+    \city{City}
+    \country{Country}
+}
+
+\begin{abstract}
+    This document provides a template for ACM conference papers
+    using the acmart document class. Replace this text with your abstract.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003120</concept_id>
+<concept_desc>Human-centered computing</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Human-centered computing}
+
+\keywords{keyword1, keyword2, keyword3}
+
+\maketitle
+
+\section{Introduction}
+
+Your introduction here. Cite references like this~\cite{ref1}.
+
+\section{Related Work}
+
+Discuss related work here.
+
+\section{Methodology}
+
+Describe your approach and methods.
+
+\subsection{Problem Definition}
+
+Define the problem formally.
+
+\subsection{Proposed Approach}
+
+Detail your proposed approach.
+
+\section{Evaluation}
+
+\subsection{Experimental Setup}
+
+Describe datasets, metrics, and baselines.
+
+\subsection{Results}
+
+Present your results. You can include tables:
+
+% \begin{table}[htbp]
+%     \caption{Example table.}
+%     \label{tab:example}
+%     \begin{tabular}{lcc}
+%         \toprule
+%         Method & Metric 1 & Metric 2 \\
+%         \midrule
+%         Baseline & 0.80 & 0.75 \\
+%         Ours     & 0.90 & 0.85 \\
+%         \bottomrule
+%     \end{tabular}
+% \end{table}
+
+\subsection{Discussion}
+
+Discuss and analyze the results.
+
+\section{Conclusion}
+
+Summarize findings and outline future work.
+
+\begin{acks}
+    The authors would like to thank\ldots
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

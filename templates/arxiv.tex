@@ -1,0 +1,145 @@
+\documentclass[11pt]{article}
+
+% Standard packages for arXiv compatibility
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{placeins}  % provides \FloatBarrier
+
+% Page setup
+\usepackage[margin=1in]{geometry}
+
+% Math commands
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+
+% Theorem environments
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\title{Your Paper Title Here}
+
+\author{
+  First Author\thanks{Equal contribution.} \\
+  Department of Science\\
+  University Name\\
+  \texttt{first@university.edu} \\
+  \And
+  Second Author\footnotemark[1] \\
+  Department of Engineering\\
+  Another University\\
+  \texttt{second@another.edu}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Your abstract goes here. It should be a single paragraph summarizing the
+problem, approach, key results, and significance of the work. Keep it
+under 250 words for most venues.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+Introduce the problem and motivation here. Cite relevant prior work
+\citep{example2024} and clearly state the contributions of this paper.
+
+\paragraph{Contributions.} We summarize our main contributions:
+\begin{enumerate}
+    \item First contribution.
+    \item Second contribution.
+    \item Third contribution.
+\end{enumerate}
+
+\section{Related Work}
+\label{sec:related}
+
+Discuss relevant prior work here, organized by topic.
+
+\section{Method}
+\label{sec:method}
+
+Describe your approach here.
+
+\subsection{Problem Setup}
+\label{sec:setup}
+
+Formally define the problem.
+
+\subsection{Proposed Approach}
+\label{sec:approach}
+
+Detail the proposed method or algorithm.
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Experimental Setup}
+
+Describe datasets, baselines, metrics, and implementation details.
+
+\subsection{Results}
+
+Present your main results.
+
+% Example table
+% \begin{table}[t]
+% \centering
+% \caption{Main results comparison.}
+% \label{tab:results}
+% \begin{tabular}{lcc}
+% \toprule
+% Method & Metric 1 & Metric 2 \\
+% \midrule
+% Baseline 1 & 0.00 & 0.00 \\
+% Baseline 2 & 0.00 & 0.00 \\
+% \textbf{Ours} & \textbf{0.00} & \textbf{0.00} \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+\subsection{Analysis}
+
+Provide ablation studies and analysis of results.
+
+\section{Discussion}
+\label{sec:discussion}
+
+Discuss limitations and broader impact.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Summarize the paper and suggest future directions.
+
+\section*{Acknowledgments}
+
+Acknowledge funding sources and helpful discussions.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+% Appendix (optional)
+% \appendix
+% \section{Additional Experiments}
+% \label{app:experiments}
+
+\end{document}
