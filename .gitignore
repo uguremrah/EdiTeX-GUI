@@ -47,3 +47,6 @@ Thumbs.db
 
 # User data (created at runtime)
 latex-projects/
+
+# Local launchers
+launch.bat

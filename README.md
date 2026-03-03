@@ -109,7 +109,6 @@ For TeX Live, update `MIKTEX_BIN_DIR` to your TeX Live `bin/` directory.
 ```
 editex-gui/
 ├── pyproject.toml              # Project metadata and dependencies
-├── launch.bat                  # Windows desktop launcher
 ├── src/
 │   ├── app.py                  # NiceGUI application entry point
 │   ├── api.py                  # FastAPI REST endpoints (/api/*)
