@@ -4,6 +4,8 @@ A web-based LaTeX editor with real-time PDF preview and AI-assisted editing via 
 
 Built with [NiceGUI](https://nicegui.io/), [PyMuPDF](https://pymupdf.readthedocs.io/), and [FastMCP](https://github.com/jlowin/fastmcp).
 
+![EdiTeX-GUI Screenshot](static/screenshot.png)
+
 ## Features
 
 - **CodeMirror LaTeX editor** with syntax highlighting, dark/light themes (VS Code Dark, GitHub Light)
